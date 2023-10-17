@@ -1,0 +1,27 @@
+/* You can customize theme styles here */
+
+/* soothing blue https://www.color-hex.com/color-palette/23522*/
+:root {
+  --soothing-blue-1: #45b3e0;
+}
+
+.header .navbar-brand span:first-child {
+  color: var(--soothing-blue-1);
+}
+
+.header .navbar-brand span:nth-child(2) {
+  font-family: inherit;
+}
+
+.rad-showcase__bg img {
+  max-height: 381px;
+}
+
+.experience__company {
+  color: var(--soothing-blue-1);
+}
+
+html body ::selection{
+  background-color: var(--soothing-blue-1);
+  color:#fff
+}

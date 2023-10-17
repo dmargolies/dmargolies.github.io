@@ -1,0 +1,124 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m David."
+  subtitle: "Software Engineer"
+  description: "I'm a Front End Engineer with experience in FinTech and real time video chat. To expand my full stack knowledge I joined a startup in 2022, but I was caught up in the layoff wave of 2023. Now I'm beefing up my skills on the front end and back end, networking, and looking for my next full time role. Check out my <a target='_blank' href='https://github.com/dmargolies'>github</a>."
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https:///linkedin.com/in/dmargolies"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/dmargolies"
+
+    - icon: "github"
+      URL: "https://github.com/dmargolies"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/margoliesdavid/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: "<p class='lead'>
+    In my career, as in life, I'm always learning. I started my career as a consultant at IBM, moved over to software engineering and became a front-end expert, eventually rebuilding a legacy JS application in React. From there, I moved into FinTech, worked as a Principal Engineer, and even led a team of 8 engineers in the US and Mexico. I even flew down to Guadalajara on my own dime to meet the team.
+    </p>
+    <p class='lead'>
+    My expertise lies with front end web development, but my interest extends up the stack. I have experience building GraphQL APIs in Java Spring, and with AWS services such as SQS and S3. There's just so much to do in the technology space and I'm excited to learn whatever comes next.
+    </p>"
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/dmargolies"
+  image:
+    x: "img/who-am-i/guadalajara.png"
+    _2x: "img/who-am-i/guadalajara.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Washington and Lee University"
+      year: "2008-2012"
+      degree: "Bachelor of Science in Physics-Engineering and Bachelor of Arts in Computer Science"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 10 years of experience working as a Front End and Full Stack web engineer."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/dmargolies"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "pdf/DavidMargolies_resume.pdf"
+
+  items:
+    - title: "Sr. Software Engineer"
+      company: "Boosted.ai"
+      duration: "Mar 2022 - Jul 2023"
+
+    - title: "Director, IT Architecture"
+      company: "E*TRADE"
+      duration: "Nov 2020 - Feb 2022"
+
+    - title: "Principal Software Engineer"
+      company: "E*TRADE"
+      duration: "May 2017 - Nov 2020"
+
+    - title: "Sr. Software Developer"
+      company: "ClairVista LLC"
+      duration: "Nov 2015 - May 2017"
+
+# Client & Work
+client_and_work:
+  title: "Projects"
+  enable: true
+
+  works:
+    - title: "Boosted Insights"
+      description: "An AI Platform for Institutional Investors and Investment Advisors."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Boosted.ai"
+        URL: "https://boosted.ai/"
+      image:
+        x: "img/works/boosted.png"
+        _2x: "img/works/boosted.png"
+      is_even: true
+
+    - title: "Power E*TRADE"
+      description: "A web-based advanced trading platform to stocks, options, futures, and more."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Power E*TRADE"
+        URL: "https://us.etrade.com/platforms/power-etrade"
+      image:
+        x: "img/works/power_etrade.png"
+        _2x: "img/works/power_etrade.png"
+      is_even: false
+
+# testimonial
+testimonial:
+  enable: false
+
+# contact
+contact:
+  enable: false
+
+# newsletter
+newsletter:
+  enable: false
